@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+<title>Personal Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+.progress {
+    position: relative;
+	height: 25px;
+}
+.progress > .progress-type {
+	position: absolute;
+	left: 0px;
+	font-weight: 800;
+	padding: 3px 30px 2px 10px;
+	color: rgb(255, 255, 255);
+	background-color: rgba(25, 25, 25, 0.2);
+}
+.progress > .progress-completed {
+	position: absolute;
+	right: 0px;
+	font-weight: 800;
+	padding: 3px 10px 2px;
+}
+hr.new4 {
+  border: 5px solid black;
+  border-radius: 10px;
+}
+</style>
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+  <div class="w3-container">
+    <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
+      <i class="fa fa-remove"></i>
+    </a>
+    <img src="img1.jpeg" style="width:45%;" class="w3-round"><br><br>
+    <h4><b>CLARA JOSE</b></h4>
+    <p class="w3-text-black">Address:-Kochumuruppel House,
+      Mannaramala pathanamthitta (P.0)<br>
+      Pin-Code:-689645
+    </p>
+  </div>
+  <div class="w3-bar-block">
+    <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>ABOUT</a> 
+
+    <a href="#education" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>EDUCATION</a> 
+    <a href="#projects" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>PROJECT</a> 
+
+    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-envelope fa-fw w3-margin-right"></i>CONTACT</a>
+  </div>
+
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+  
+  <div class="w3-main" style="margin-left:300px">
+      <div class="w3-container w3-padding-large" style="margin-bottom:32px">
+        <h1 id="about"><b>About Me</b></h1>
+        <p>I graduated from Nirmala College, Muvattupuzha.I have an efficient communication skills along with powerful technical knowledge.With love and care of my family i have gained a good vision about my life and society.I would like to improve my technical knowledge which would bring a break through in my life of interest.I would like to be apart of a leading company and to make my family proud </p>
+        <hr>
+        <h4><strong>TECHNICAL SKILLS</strong></h4>
+        <div class="container">
+          <div class="row">                   
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">
+                        <span class="sr-only">100% Complete</span>
+                    </div>
+                    <span class="progress-type">HTML</span>
+                    <span class="progress-completed">100%</span>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                        <span class="sr-only">80% Complete (success)</span>
+                    </div>
+                    <span class="progress-type">CSS</span>
+                    <span class="progress-completed">80%</span>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                        <span class="sr-only">80% Complete (info)</span>
+                    </div>
+                    <span class="progress-type">JavaScript</span>
+                    <span class="progress-completed">80%</span>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+                        <span class="sr-only">80% Complete (warning)</span>
+                    </div>
+                    <span class="progress-type">PHP & MySQL</span>
+                    <span class="progress-completed">90%</span>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+                        <span class="sr-only">80% Complete (danger)</span>
+                    </div>
+                    <span class="progress-type">PYTHON(DJANGO) & SQLite</span>
+                    <span class="progress-completed">90%</span>
+                </div>
+          </div>
+          <h4><strong>SOFT SKILLS</strong></h4>
+            <div class="container">
+              <div class="row">                   
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+                        <span class="sr-only">100% Complete</span>
+                        </div>
+                        <span class="progress-type">Communication</span>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+                            <span class="sr-only">80% Complete (success)</span>
+                        </div>
+                        <span class="progress-type">Decision-making</span>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+                            <span class="sr-only">80% Complete (success)</span>
+                        </div>
+                        <span class="progress-type">Problem Solving</span>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+                            <span class="sr-only">80% Complete (success)</span>
+                        </div>
+                        <span class="progress-type">Creativity/Designing</span>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+                            <span class="sr-only">80% Complete (success)</span>
+                        </div>
+                        <span class="progress-type">Leadership</span>
+                    </div>
+              </div>
+        </div>        
+      </div>
+  <!-- !PAGE CONTENT! -->
+
+
+  <br><hr class="new4"><br>
+
+  <!-- Header -->
+  <header id="education">
+    <a href="#"><img src="/w3images/avatar_g2.jpg" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
+    <div class="w3-container">
+    <h1><b>QUALIFICATION</b></h1>
+    </div>
+  </header>
+  
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="img3.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-section w3-pale-green w3-leftbar w3-border-black">
+        <p><b><a href="https://mmsspta.edu.in/"> MATHA PUBLIC SCHOOL PATHANAMTHITTA</a></b></p>
+        <p>I completed my 10th from Mary Matha Public School, pathanamthitta in the year 2018.I scored 92% marks.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="img4.jpeg" alt="Norway" style="width:100%" class="w3-hover-opacity" height="513px">
+      <div class="w3-container w3-section w3-pale-green w3-leftbar w3-border-black">
+        <p><b><a href="https://www.girideepambcs.edu.in/">GIRIDEEPAM BETHANY CENTRAL SCHOOL</a></b></p>
+        <p> I completed my 12th from Girideepam Bethany Central School in 2020.I scored 78% marks.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="img2.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-section w3-pale-green w3-leftbar w3-border-black">
+        <p><b><a href="https://nirmalacollege.ac.in/">NIRMALA COLLEGE MUVATTUPUZHA</a></b></p>
+        <p>I did my graduation from Nirmala College Muvattupuzha in Bachelor Of Computer Application in 2023. I completed degree with an SCPA of 8.8.</p>
+      </div>
+    </div>
+  </div>
+  <br><hr class="new4"><br>
+
+  <header id="projects">
+    <a href="#"><img src="/w3images/avatar_g2.jpg" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
+    <div class="w3-container">
+    <h1><b>PROJECTS</b></h1>
+    </div>
+  </header>
+  
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <div class="w3-container w3-section w3-pale-yellow w3-leftbar w3-border-red"><p><b><i>Tour and Travel Management System</i></b></p>
+        
+        <p><span>&#8594;</span><b>Description</b>:- This project provide tour package information, ticket bookings, searching facility for coustomer and also generate different types of reports and organization details.</p>
+        <p><span>&#8594;</span><b>Technologies Used</b>:- HTML,CSS,JAVASCRIPT,PHP,MySQL</p>
+      </div>
+    </div>
+    <div class="w3-row-padding">
+
+    <div class="w3-third w3-container">
+      <div class="w3-container w3-section w3-pale-yellow w3-leftbar w3-border-red"> 
+         <p><b><i>Designer Studio:Boutique Management System</i></b></p>
+        
+        <p><span>&#8594;</span><b>Description</b>:- This project gives customers the opportunity to choose their clothes of their choice at an affordable price without spending much time for traveling and buying. Customers can buy our clothes through this online platform and get their purchased clothes delivered to their desired location.</p>
+        <p><span>&#8594;</span><b>Technologies Used</b>:- HTML,CSS,JAVASCRIPT,PYTHON(DJANGO),SQLite</p>
+      </div>
+    </div>
+    </div>
+  </div>
+  <br><hr class="new4"><br>
+
+  <!-- Contact Section -->
+  <div class="w3-container w3-padding-large w3-grey">
+    <h1 id="contact"><b>Contact Me</b></h1>
+    <div class="w3-row-padding w3-center w3-padding-24" style="margin:0 -20px">
+      <div class="w3-third w3-dark-grey">
+        <p><i class="fa fa-envelope w3-xxlarge w3-text-light-grey"></i></p>
+        <p>clarajose52@gmail.com</p>
+      </div>
+      <div class="w3-third w3-teal">
+        <p><i class="fa fa-map-marker w3-xxlarge w3-text-light-grey"></i></p>
+        <p>pathanamthitta,Kerala</p>
+      </div>
+      <div class="w3-third w3-dark-grey">
+        <p><i class="fa fa-phone w3-xxlarge w3-text-light-grey"></i></p>
+        <p>9074211293</p>
+      </div>
+    </div>   
+  </div>
+
+  <!-- Footer -->
+  <footer class="w3-container w3-padding-10 w3-dark-grey">
+  <div class="w3-row-padding">
+    <div class="w3-third">
+      <h5><center><strong>BY CLARA JOSE</strong></center></h5>
+    </div>
+  
+    
+
+  </div>
+  </footer>
+  
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+
+</body>
+</html>
